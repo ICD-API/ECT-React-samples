@@ -38,7 +38,7 @@ class ECTReactComponent extends React.Component {
   render() {
     return (
       <div>
-        <h1>React v18.2 + ECT v1.7</h1>
+        <h1>React v18.2 + ECT v1.7.1</h1>
         Type for starting search:
         {/* input element used for typing the search */}
         <input
