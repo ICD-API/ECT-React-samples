@@ -5,7 +5,7 @@ import * as ECT from '@whoicd/icd11ect';
 import '@whoicd/icd11ect/style.css';
 
 // import the interface defining the selectedEntity object
-import { ISelectedEntity } from './selectedEntity';
+import type { ISelectedEntity } from './selectedEntity';
 
 class ECTReactComponent extends React.Component {
   iNo = 1;
@@ -30,7 +30,6 @@ class ECTReactComponent extends React.Component {
   }
 
   componentDidMount() {
-    console.log('componentDidMount()');
     // manual binding only after the component has been mounted
     ECT.Handler.bind(this.iNo);
   }
@@ -38,7 +37,7 @@ class ECTReactComponent extends React.Component {
   render() {
     return (
       <div>
-        <h1>React v18.2 + ECT v1.7.1</h1>
+        <h1>React v19.2 + ECT v1.8</h1>
         Type for starting search:
         {/* input element used for typing the search */}
         <input

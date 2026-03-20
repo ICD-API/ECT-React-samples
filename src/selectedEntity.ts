@@ -1,5 +1,5 @@
-/* The function selectedEntityFunction(selectedEntity) has as parameter the selectedEntity object. 
-The object contains the information about the selected entity and is defined by this interface */
+/* The function selectedEntityFunction(selectedEntity) receives the selectedEntity object as its parameter. 
+This object contains all information about the selected entity and is defined by the following interface */
 
 export interface ISelectedEntity {
   iNo: string;
